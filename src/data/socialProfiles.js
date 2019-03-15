@@ -6,22 +6,22 @@ import emailIcon from '../assets/email_icon.png';
 const SOCIAL_PROFILES = [
   {
     id: 1,
-    link: 'https://github.com/15Dkatz',
+    link: 'https://github.com/prashidi/',
     image: githubIcon
   },
   {
     id: 2,
-    link: 'https://www.linkedin.com/in/david-katz-sf/',
+    link: 'https://www.linkedin.com/in/patrick-rashidi-1a879639/',
     image: linkedinIcon
   },
   {
     id: 3,
-    link: 'https://twitter.com/dkcodehelper',
+    link: 'https://twitter.com/patrickrashidi1',
     image: twitterIcon
   },
   {
     id: 4,
-    link: 'mailto:dkcodehelper@gmail.com',
+    link: 'mailto:prashidi174@gmail.com',
     image: emailIcon
   }
 ];

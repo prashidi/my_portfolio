@@ -1,0 +1,36 @@
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(assets/roboto-condensed.light.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Confortabold;
+    src: url(assets/Comfortaa-Bold.ttf);
+}
+
+@font-face {
+    font-family: EconomicaBold;
+    src: url(assets/economica-bold.ttf);
+}
+
+body {
+    text-align: center;
+    font-size: 16px;
+    padding: 2.5%;
+    font-family: 'RobotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'EconomicaBold';
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.bio {
+    font-family: 'Confortabold';
+}
