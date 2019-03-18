@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Projects from './Projects';
 import Title from './Title';
 import SocialProfiles from './SocialProfile';
-import patrick from './assets/patrick.jpg';
+import patrick from '../assets/patrick.jpg';
 
 
 class App extends Component {
