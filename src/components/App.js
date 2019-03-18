@@ -3,6 +3,7 @@ import Projects from './Projects';
 import Title from './Title';
 import SocialProfiles from './SocialProfile';
 import patrick from '../assets/patrick.jpg';
+import Header from './Header';
 
 
 class App extends Component {
@@ -17,29 +18,28 @@ class App extends Component {
 
         return (
             <div>
-                <div className='bio'>
-                    <img src={ patrick } className='profile' alt='profile'/>
-                    <h1>Hello!</h1>
-                    <p>My name is Patrick Rashidi.</p>
-                    <Title />
-                    <p>I'm always looking forward to working on meaningfull projects.</p>
-                    { 
-                        this.state.displayBio ? (
+                <Header />
+                <img src={ patrick } className='profile' alt='profile'/>
+                <h1>Hello!</h1>
+                <p>My name is Patrick Rashidi.</p>
+                <Title />
+                <p>I'm always looking forward to working on meaningfull projects.</p>
+                { 
+                    this.state.displayBio ? (
+                        <div>
+                            <p>I live in Cape Town, and I love coding and the funny thing with me is I don't realy have friends because I code every day</p>
+                            <p>My favourite language is Python, but recently I dived into to JavaScript, and I think React.js is a awesome frontend framework</p>
+                            <p>Besides coding, also love music and soccer!</p>
                             <div>
-                                <p>I live in Cape Town, and I love coding and the funny thing with me is I don't realy have friends because I code every day</p>
-                                <p>My favourite language is Python, but recently I dived into to JavaScript, and I think React.js is a awesome frontend framework</p>
-                                <p>Besides coding, also love music and soccer!</p>
-                                <div>
-                                    <button onClick ={ this.toggleDisplayBio }>Show Less</button>
-                                </div>
+                                <button onClick ={ this.toggleDisplayBio }>Show Less</button>
                             </div>
-                        ) : (
-                            <div>
-                                <button onClick ={ this.toggleDisplayBio }>Read More</button>
-                            </div>
-                        )
-                    }
-                </div>
+                        </div>
+                    ) : (
+                        <div>
+                            <button onClick ={ this.toggleDisplayBio }>Read More</button>
+                        </div>
+                    )
+                }
                 <hr />
                 <Projects />
                 <hr />
