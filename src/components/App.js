@@ -3,7 +3,6 @@ import Projects from './Projects';
 import Title from './Title';
 import SocialProfiles from './SocialProfile';
 import patrick from '../assets/patrick.jpg';
-import Header from './Header';
 
 
 class App extends Component {
@@ -18,7 +17,6 @@ class App extends Component {
 
         return (
             <div>
-                <Header />
                 <img src={ patrick } className='profile' alt='profile'/>
                 <h1>Hello!</h1>
                 <p>My name is Patrick Rashidi.</p>
