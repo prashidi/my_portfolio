@@ -6,11 +6,16 @@
     "@babel/plugin-proposal-class-properties": "^7.3.4",
     "history": "^4.9.0",
     "live-server": "^1.2.1",
-    "parcel-bundler": "^1.12.2",
+    "parcel-bundler": "^1.12.3",
+    "pubnub": "^4.23.0",
     "re": "^0.1.4",
-    "react": "^16.8.4",
+    "react": "^16.8.5",
     "react-dom": "^16.8.4",
-    "react-router-dom": "^4.4.0"
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.4.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "dev": "parcel ./src/index.html",

@@ -1,17 +1,17 @@
 @font-face {
     font-family: RobotoCondensed;
-    src: url(/roboto-condensed.light.80a1dce9.ttf);
+    src: url(/roboto-condensed.light.dc1ca484.ttf);
     font-weight: 800;
 }
 
 @font-face {
     font-family: Confortabold;
-    src: url(/Comfortaa-Bold.cbd62701.ttf);
+    src: url(/Comfortaa-Bold.7f898db4.ttf);
 }
 
 @font-face {
     font-family: EconomicaBold;
-    src: url(/economica-bold.19a0e1b3.ttf);
+    src: url(/economica-bold.4b753017.ttf);
 }
 
 body {
@@ -23,6 +23,22 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'EconomicaBold';
+}
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .track {
@@ -37,6 +53,7 @@ h1, h2, h3, h4, h5 {
 .track-image {
     width: 250px;
     height: 250px;
+    border-radius: 7%;
 }
 
 .track-name {
@@ -60,6 +77,106 @@ h1, h2, h3, h4, h5 {
     padding: 10px;
     padding-top: 15px;
     opacity: 0.8;
+}
+
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(/roboto-condensed.light.e6abf231.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(/economica-bold.08eba17f.ttf);
+}
+
+body {
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  font-family: 'RobotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold';
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.title-fade-out {
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 2s;
+}
+
+.title-fade-in {
+  opacity: 100;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes fade-out {
+  from {opacity: 100}
+  to {opacity: 0}
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 100}
+}
+
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(/roboto-condensed.light.02ff3b28.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(/economica-bold.85b17961.ttf);
+}
+
+body {
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  font-family: 'RobotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold';
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.title-fade-out {
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 2s;
+}
+
+.title-fade-in {
+  opacity: 100;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes fade-out {
+  from {opacity: 100}
+  to {opacity: 0}
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 100}
 }
 
 @font-face {
