@@ -1,0 +1,66 @@
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(/roboto-condensed.light.6709adf4.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Confortabold;
+    src: url(/Comfortaa-Bold.0056183a.ttf);
+}
+
+@font-face {
+    font-family: EconomicaBold;
+    src: url(/economica-bold.12a9e27d.ttf);
+}
+
+body {
+    text-align: center;
+    font-size: 16px;
+    padding: 2.5%;
+    font-family: 'RobotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'EconomicaBold';
+}
+
+.track {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.track-image {
+    width: 250px;
+    height: 250px;
+}
+
+.track-name {
+    position: absolute;
+    width: 250px;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.track-icon {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    color: white;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-top: 15px;
+    opacity: 0.8;
+}
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

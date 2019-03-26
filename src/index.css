@@ -2,57 +2,57 @@
     font-family: RobotoCondensed;
     src: url(assets/roboto-condensed.light.ttf);
     font-weight: 800;
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: Confortabold;
     src: url(assets/Comfortaa-Bold.ttf);
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: EconomicaBold;
     src: url(assets/economica-bold.ttf);
-}
-
-body {
+  }
+  
+  body {
     text-align: center;
     font-size: 16px;
     padding: 2.5%;
     font-family: 'RobotoCondensed';
-}
-
-h1, h2, h3, h4, h5 {
+  }
+  
+  h1, h2, h3, h4, h5 {
     font-family: 'EconomicaBold';
-}
-
-.profile {
+  }
+  
+  .profile {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-}
-
-.bio {
+  }
+  
+  .bio {
     font-family: 'Confortabold';
-}
-
-.title-fade-out {
+  }
+  
+  .title-fade-out {
     opacity: 0;
     animation-name: fade-out;
     animation-duration: 2s;
-}
-
-.title-fade-in {
+  }
+  
+  .title-fade-in {
     opacity: 100;
     animation-name: fade-in;
     animation-duration: 2s;
-}
-
-@keyframes fade-out {
+  }
+  
+  @keyframes fade-out {
     from {opacity: 100;}
     to {opacity: 0;}
-}
-
-@keyframes fade-in {
+  }
+  
+  @keyframes fade-in {
     from {opacity: 0;}
     to {opacity: 100;}
-}
+  }

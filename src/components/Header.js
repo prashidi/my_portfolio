@@ -14,6 +14,7 @@ const Header = ({ children }) => {
             <div>
                 <h4 style={style}><Link to='/'>Home </Link></h4>
                 <h4 style={style}><Link to='/jokes'>Jokes</Link></h4>
+                <h4 style={style}><Link to='/music-master'>Kingopaty Music</Link></h4>
             </div>
             {children}
         </div>
